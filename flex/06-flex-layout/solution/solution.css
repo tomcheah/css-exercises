@@ -38,7 +38,7 @@ button {
 }
 
 .content {
-  flex: 1;
+  flex: 1; /* we need this because we need this flex box to consume the available space*/
   display: flex;
   align-items: center;
   justify-content: center;
