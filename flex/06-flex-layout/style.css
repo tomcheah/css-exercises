@@ -56,8 +56,8 @@ a {
 
 .content {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  flex-direction: column;
+  flex: 1; /* We want our .content to take the rest of the available space which requires flex-grow = 1*/
 }
